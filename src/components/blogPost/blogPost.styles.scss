@@ -1,0 +1,39 @@
+.post {
+  height: 30vw;
+  width: 40vw;
+  background-color: rgba(39, 3, 3, 0.664);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+
+  img {
+    height: 20vw;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+
+  :first-child {
+    margin-top: 1rem;
+  }
+  h2 {
+    padding: 1rem 0rem 1rem 0rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .post {
+    height: 80%;
+    width: 95%;
+
+    img {
+      height: 50%;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

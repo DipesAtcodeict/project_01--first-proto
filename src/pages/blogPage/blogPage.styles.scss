@@ -1,0 +1,26 @@
+.blogPage {
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+
+  img {
+    width: 100%;
+    padding: 1rem;
+    height: 52vh;
+    background-position: center;
+    background-size: cover;
+  }
+
+  h2 {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+
+  p {
+    padding: 1rem;
+    text-align: left;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+  }
+}
